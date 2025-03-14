@@ -36,7 +36,6 @@ INSERT INTO `leads` (`id`, `name`, `position`, `company`, `email`, `status`, `so
 (23, 'Patrick Young', 'Manager', 'Company R', 'patrick@example.com', 'closed', 'Twitter', 'Minneapolis', '2025-03-14 02:00:09'),
 (24, 'Quinn Allen', 'Analyst', 'Company S', 'quinn@example.com', 'new', 'Referral', 'Nashville', '2025-03-14 02:00:09'),
 (25, 'Rachel Wright', 'CEO', 'Company T', 'rachel@example.com', 'contacted', 'LinkedIn', 'Indianapolis', '2025-03-14 02:00:09'),
-(26, 'Zacky Raechan', 'CEO', 'ZCKY Agency', 'zackyraechan@gmail.com', 'contacted', 'Instagram', 'Mataram City, Indonesia', '2025-03-14 02:05:55');
 
 ALTER TABLE `leads`
   ADD PRIMARY KEY (`id`),
